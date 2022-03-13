@@ -1,0 +1,92 @@
+<html>
+<body>
+Nitrogen level<input id="Nitrogen:-">
+Pottasium level<input id="Pottasium:-"><br><br>
+Phosphurous level<input id="Phosphurous">
+pH level<input id="pH"><br><br>
+Moisture level<input id="Moisture:-"><br><br><tr></tr>
+<button onclick="Check()" style="color:blue;">
+Get Report
+</button>
+<script>
+function Check(){
+ var N = document.getElementById("Nitrogen")
+ var P = document.getElementById("Pottasium")
+ var K = document.getElementById("Phosphurous")
+ var M = document.getElementById("pH")
+ var pH = document.getElementById("Moisture")
+parseInt(N)
+parseInt(P)
+parseInt(K)
+parseInt(M)
+parseInt(pH)
+
+
+
+    if(183<=N<=199 && 32<=P<=43 && 1<=K<=50 && 20<=M<=60 && 6.5<=pH<=7)
+    {
+        document.write("Hello ")
+        document.write('<br>')
+        document.write("Soil has better fertility But moisture level is very low in this field so you need to have good irrigaation system,And you also need to take care of micronuetrients and nutrients of soil but you can take below crops in this field")
+        document.write('<br>')
+        document.write("1)Cotton")
+        document.write('<br>') 
+        document.write("2)groundnut")
+        document.write('<br>')
+        document.write("3)Maize")
+        document.write('<br>')
+        document.write('<br>')
+        document.write("And Use following fertilizers")
+        document.write('<br>')
+        document.write('<br>')
+        document.write("1)20-20-0")
+        document.write('<br>')
+        document.write("2)10-26-26")
+        
+    }
+
+    else if (200<=N<=400 && 43<=P<=100 && 50<=K<=100 && 60<=M<=100 && 7<=pH<=7.5)
+    {
+        document.write("Hello ")
+        document.write('<br>')
+        document.write("This soil has more moisture value so the soil is more wet then dont need to worry about irrigation of soil as it is detected more muddy,so we are suggesting you crops accordingly,but take care of you can take below crops in this field")
+        document.write('<br>')
+        document.write("1)Rice")
+        document.write('<br>') 
+        document.write("2)Sugarcane")
+        document.write('<br>')
+        document.write("3)Coconut")
+        document.write('<br>')
+        document.write("And Use following fertilizers")
+        document.write("1)20-20-0")
+        document.write('<br>')
+        document.write("2)10-26-26")
+    }
+    else{
+        document.write("No fertiable soil")
+    }
+
+  
+
+}
+
+</script><br>
+<br><br><br><br><br>
+<br><br><br><br>
+<div id="Name">
+    This project is designed by:- <br>
+    1)Ramkrushna Suresh Shinde.<br>
+    2)Dashrath mole.<br>
+    3)Rutuja Chaugule.<br>
+    4)Sayali Jamdade<br>
+    5)Dhanashri patil
+
+
+</div>
+</body>
+
+
+
+
+
+</html>
